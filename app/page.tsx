@@ -22,7 +22,10 @@ export default function LoginPage() {
     e.preventDefault();
 
     // Simple hardcoded credentials
-    if (username === "admin" && password === "12345") {
+    if (
+      username === "Mieuxtechnologies" &&
+      password === "@Mieuxtechnologies123#@!"
+    ) {
       localStorage.setItem("isLoggedIn", "true");
       router.push("/dashboard");
     } else {
